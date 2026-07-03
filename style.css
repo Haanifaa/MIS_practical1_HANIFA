@@ -252,4 +252,13 @@ textarea {
 .contact-info button:hover{
 
     background:#58111d;
+} 
+
+footer{
+
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+
 }
