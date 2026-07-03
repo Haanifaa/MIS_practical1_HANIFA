@@ -137,3 +137,19 @@ footer{
 .book-card p{
     margin:10px 0;
 }
+
+form {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
