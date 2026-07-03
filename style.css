@@ -107,3 +107,33 @@ footer{
     padding:15px;
     margin-top:30px;
 }
+
+.book-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    padding:30px;
+}
+
+.book-card{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.book-card img{
+    width:180px;
+    height:250px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.book-card h3{
+    margin-top:15px;
+}
+
+.book-card p{
+    margin:10px 0;
+}
